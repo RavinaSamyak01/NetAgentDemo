@@ -1,0 +1,20 @@
+2022-08-10 15:30:04,596 [main] INFO Scenario3 - initialization of the properties file is done
+2022-08-10 15:30:05,172 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.134 (since Google Chrome 103 is installed in your machine)
+2022-08-10 15:30:05,200 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\rprajapati\.m2\repository\webdriver\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-08-10 15:30:27,616 [main] INFO Scenario3 - Url opened
+2022-08-10 15:31:10,383 [main] INFO Scenario3 - =======TestScenario 3 Test Start=======
+2022-08-10 15:31:10,597 [main] INFO Scenario3 - Clicked on Operations
+2022-08-10 15:31:10,729 [main] INFO Scenario3 - Clicked on TaskLog
+2022-08-10 15:31:13,775 [main] INFO Scenario3 - ServiceID is==LOC
+2022-08-10 15:31:13,782 [main] INFO Scenario3 - PickUpID is==3505216
+2022-08-10 15:31:44,219 [main] INFO Scenario3 - Operation tab is not selected
+2022-08-10 15:31:44,897 [main] INFO Scenario3 - Click on Operation Tab
+2022-08-10 15:31:46,312 [main] INFO Scenario3 - Clear search input
+2022-08-10 15:31:46,423 [main] INFO Scenario3 - Enter PickUpID in Search input
+2022-08-10 15:31:46,690 [main] INFO Scenario3 - Click on Search button
+2022-08-10 15:31:55,290 [main] INFO Scenario3 - Searched Job is displayed in edit mode
+2022-08-10 15:31:55,967 [main] INFO Scenario3 - Clicked on Close button
+2022-08-10 15:31:59,515 [main] INFO Scenario3 - Total Jobs=1
+2022-08-10 15:31:59,516 [main] INFO Scenario3 - Job is exist with searched pickupID=PASS
+2022-08-10 15:31:59,569 [main] INFO Scenario3 - Stage of 0st Job is=PU DRV CONF
+2022-08-10 15:31:59,570 [main] INFO Scenario3 - Job is on PU DRV CONF stage=PASS
