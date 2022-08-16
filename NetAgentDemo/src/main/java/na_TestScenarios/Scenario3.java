@@ -23,6 +23,10 @@ public class Scenario3 extends BaseInit {
 		logger.info("=======TestScenario 3 Test Start=======");
 		msg.append("=======TestScenario 3 Test Start=======" + "\n\n");
 
+		
+		logger.info("To verify 'Total Job=1' and Job status='PU DRV CONF' when search the particular job.");
+		msg.append("To verify 'Total Job=1' and Job status='PU DRV CONF' when search the particular job." + "\n\n");
+		
 		// --Go to TaskLog
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("idOperations")));
 		isElementPresent("Operations_id").click();

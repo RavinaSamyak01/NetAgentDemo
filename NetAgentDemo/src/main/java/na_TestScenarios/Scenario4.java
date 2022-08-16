@@ -21,6 +21,9 @@ public class Scenario4 extends BaseInit {
 		logger.info("=======TestScenario 4 Test Start=======");
 		msg.append("=======TestScenario 4 Test Start=======" + "\n\n");
 
+		logger.info("To verify 'Total Job=0' after Reject the job from NetAgent.");
+		msg.append("To verify 'Total Job=0' after Reject the job from NetAgent." + "\n\n");
+
 		// --Go to TaskLog
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("idOperations")));
 		isElementPresent("Operations_id").click();
@@ -44,11 +47,11 @@ public class Scenario4 extends BaseInit {
 			// --Search with PickUP ID
 			String ServiceID = getData("OrderProcessing", row1, 0);
 			logger.info("ServiceID is==" + ServiceID);
-			msg.append("ServiceID is==" + ServiceID+"\n");
+			msg.append("ServiceID is==" + ServiceID + "\n");
 
 			String PUID = getData("OrderProcessing", row1, 1);
 			logger.info("PickUpID is==" + PUID);
-			msg.append("PickUpID is==" + PUID+"\n");
+			msg.append("PickUpID is==" + PUID + "\n");
 
 			try {
 				wait.until(ExpectedConditions

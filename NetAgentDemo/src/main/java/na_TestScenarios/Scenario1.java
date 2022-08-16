@@ -19,7 +19,11 @@ public class Scenario1 extends BaseInit {
 
 		logger.info("=======TestScenario 1 Test Start=======");
 		msg.append("=======TestScenario 1 Test Start=======" + "\n\n");
-
+		
+		
+		logger.info("To verify 'No Record Found' when no Jobs is/are assigned");
+		msg.append("To verify 'No Record Found' when no Jobs is/are assigned" + "\n\n");
+		
 		// --LogOut from current courier
 		logOut();
 

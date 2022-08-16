@@ -17,6 +17,9 @@ public class Scenario2 extends BaseInit {
 		logger.info("=======TestScenario 2 Test Start=======");
 		msg.append("=======TestScenario 2 Test Start=======" + "\n\n");
 
+		logger.info("To verify 'Total Job=3' when 3 Jobs are assigned");
+		msg.append("To verify 'Total Job=3' when 3 Jobs are assigned" + "\n\n");
+
 		// --Go to TaskLog
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("idOperations")));
 		isElementPresent("Operations_id").click();
