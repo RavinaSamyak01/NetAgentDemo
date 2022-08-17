@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-NetAgent_TaskLog_Demo" class="navigator-link">
-              <span class="suite-name border-failed">NetAgent TaskLog Demo</span>
+              <span class="suite-name border-passed">NetAgent TaskLog Demo</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-NetAgent_TaskLog_Demo" class="hide-methods failed suite-NetAgent_TaskLog_Demo"> (hide)</a> <!-- hide-methods failed suite-NetAgent_TaskLog_Demo -->
-                      <a href="#" panel-name="suite-NetAgent_TaskLog_Demo" class="show-methods failed suite-NetAgent_TaskLog_Demo"> (show)</a> <!-- show-methods failed suite-NetAgent_TaskLog_Demo -->
-                    </span>
-                    <div class="method-list-content failed suite-NetAgent_TaskLog_Demo">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-NetAgent_TaskLog_Demo" title="na_TestScenarios.Scenario4" class="method navigator-link" hash-for-method="searchAndRejectJob">searchAndRejectJob</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-NetAgent_TaskLog_Demo -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -119,6 +105,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-NetAgent_TaskLog_Demo" title="na_TestScenarios.Scenario2" class="method navigator-link" hash-for-method="getTotalJobs">getTotalJobs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NetAgent_TaskLog_Demo" title="na_TestScenarios.Scenario4" class="method navigator-link" hash-for-method="searchAndRejectJob">searchAndRejectJob</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -143,27 +134,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-NetAgent_TaskLog_Demo" class="panel NetAgent_TaskLog_Demo">
-          <div class="suite-NetAgent_TaskLog_Demo-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">na_TestScenarios.Scenario4</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchAndRejectJob">
-                  </a> <!-- searchAndRejectJob -->
-                  <span class="method-name">searchAndRejectJob</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Row.getCell(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; is null
-	at netAgent_BasePackage.BaseInit.getData(BaseInit.java:545)
-	at na_TestScenarios.Scenario4.searchAndRejectJob(Scenario4.java:45)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-NetAgent_TaskLog_Demo-class-failed -->
           <div class="suite-NetAgent_TaskLog_Demo-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -182,14 +152,14 @@
           <div class="suite-NetAgent_TaskLog_Demo-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">na_TestScenarios.Scenario2</span>
+              <span class="class-name">na_TestScenarios.Scenario4</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getTotalJobs">
-                  </a> <!-- getTotalJobs -->
-                  <span class="method-name">getTotalJobs</span>
+                  <a name="searchAndRejectJob">
+                  </a> <!-- searchAndRejectJob -->
+                  <span class="method-name">searchAndRejectJob</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -205,6 +175,21 @@
                   <a name="unAssignANyRecord">
                   </a> <!-- unAssignANyRecord -->
                   <span class="method-name">unAssignANyRecord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NetAgent_TaskLog_Demo-class-passed -->
+          <div class="suite-NetAgent_TaskLog_Demo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">na_TestScenarios.Scenario2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTotalJobs">
+                  </a> <!-- getTotalJobs -->
+                  <span class="method-name">getTotalJobs</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -289,24 +274,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'searchByPUID')
 data.setCell(0, 2, 'na_TestScenarios.Scenario3')
-data.setCell(0, 3, 64477);
+data.setCell(0, 3, 36869);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'searchAndRejectJob')
-data.setCell(1, 2, 'na_TestScenarios.Scenario4')
-data.setCell(1, 3, 62925);
+data.setCell(1, 1, 'unAssignANyRecord')
+data.setCell(1, 2, 'na_TestScenarios.Scenario1')
+data.setCell(1, 3, 20456);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'unAssignANyRecord')
-data.setCell(2, 2, 'na_TestScenarios.Scenario1')
-data.setCell(2, 3, 53368);
+data.setCell(2, 1, 'searchAndRejectJob')
+data.setCell(2, 2, 'na_TestScenarios.Scenario4')
+data.setCell(2, 3, 8198);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'getTotalJobs')
 data.setCell(3, 2, 'na_TestScenarios.Scenario2')
-data.setCell(3, 3, 7727);
+data.setCell(3, 3, 3492);
 window.suiteTableData['NetAgent_TaskLog_Demo']= { tableData: data, tableDiv: 'times-div-NetAgent_TaskLog_Demo'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-NetAgent_TaskLog_Demo">
               </div> <!-- times-div-NetAgent_TaskLog_Demo -->
             </div> <!-- times-div -->
@@ -342,66 +327,64 @@ return data;
               <div class="chronological-class-name">na_TestScenarios.Scenario1</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">testMethodName(public void na_TestScenarios.Scenario1.unAssignANyRecord() throws java.lang.Exception)</span>
-                <span class="method-start">68541 ms</span>
+                <span class="method-start">17754 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">unAssignANyRecord</span>
-                <span class="method-start">68553 ms</span>
+                <span class="method-start">17762 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=unAssignANyRecord status=SUCCESS method=Scenario1.unAssignANyRecord()[pri:0, instan...)</span>
-                <span class="method-start">121926 ms</span>
+                <span class="method-start">38219 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">na_TestScenarios.Scenario2</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">testMethodName(public void na_TestScenarios.Scenario2.getTotalJobs() throws java.lang.Exception)</span>
-                <span class="method-start">122142 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getTotalJobs</span>
-                <span class="method-start">122143 ms</span>
+                <span class="method-start">38319 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">testMethodName(public void na_TestScenarios.Scenario2.getTotalJobs() throws java.lang.Exception)</span>
+                <span class="method-start">38319 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=getTotalJobs status=SUCCESS method=Scenario2.getTotalJobs()[pri:0, instance:na_Test...)</span>
-                <span class="method-start">129873 ms</span>
+                <span class="method-start">41812 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">na_TestScenarios.Scenario3</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">testMethodName(public void na_TestScenarios.Scenario3.searchByPUID() throws java.lang.Exception)</span>
-                <span class="method-start">130081 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchByPUID</span>
-                <span class="method-start">130081 ms</span>
+                <span class="method-start">41928 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">testMethodName(public void na_TestScenarios.Scenario3.searchByPUID() throws java.lang.Exception)</span>
+                <span class="method-start">41928 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=searchByPUID status=SUCCESS method=Scenario3.searchByPUID()[pri:0, instance:na_Test...)</span>
-                <span class="method-start">194560 ms</span>
+                <span class="method-start">78798 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">na_TestScenarios.Scenario4</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">testMethodName(public void na_TestScenarios.Scenario4.searchAndRejectJob() throws java.lang.Exception)</span>
-                <span class="method-start">194778 ms</span>
+                <span class="method-start">78908 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">searchAndRejectJob</span>
-                <span class="method-start">194779 ms</span>
+                <span class="method-start">78909 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=searchAndRejectJob status=FAILURE method=Scenario4.searchAndRejectJob()[pri:0, inst...)</span>
-                <span class="method-start">257714 ms</span>
+                <span class="method-name">getResult([TestResult name=searchAndRejectJob status=SUCCESS method=Scenario4.searchAndRejectJob()[pri:0, inst...)</span>
+                <span class="method-start">87108 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">SendEmail</span>
-                <span class="method-start">258003 ms</span>
+                <span class="method-start">87222 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

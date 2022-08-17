@@ -91,7 +91,7 @@ public class BaseInit {
 			options.addArguments("--proxy-bypass-list=*");
 			options.addArguments("--disable-extensions");
 			options.addArguments("--no-sandbox");
-			// options.addArguments("--start-maximized");
+			options.addArguments("--start-maximized");
 			// options.addArguments("--headless");
 			String downloadFilepath = System.getProperty("user.dir") + "\\src\\main\\resources\\Downloads";
 			HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
@@ -104,7 +104,7 @@ public class BaseInit {
 			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 			capabilities.setPlatform(Platform.ANY);
 
-			options.addArguments("window-size=1036,776");
+			// options.addArguments("window-size=1036,776");
 			// options.addArguments("window-size=1936,1056");
 			// options.addArguments("window-size=1036x776");
 
@@ -628,7 +628,7 @@ public class BaseInit {
 		msg.append("Please find attached file of Report and Log");
 
 		String Env = storage.getProperty("Env");
-		String subject = "Selenium Automation Script: " + Env + " NetAgent Portal";
+		String subject = "Selenium Automation Script: " + Env + " NetAgent Portal Demo";
 		String File = ".\\Report\\ExtentReport\\ExtentReportResults.html,.\\Report\\log\\NetAgentLog.html";
 
 		try {
