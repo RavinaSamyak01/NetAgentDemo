@@ -634,7 +634,7 @@ public class BaseInit {
 
 		String Env = storage.getProperty("Env");
 		String subject = "Selenium Automation Script: " + Env + " NetAgent Portal Demo";
-		String File = ".\\Report\\ExtentReport\\ExtentReportResults.html,.\\Report\\log\\NetAgentLog.html";
+		String File = ".\\Report\\ExtentReport\\ExtentReportResults.html,.\\Report\\log\\NetAgentDemoLog.html";
 
 		try {
 //			/kunjan.modi@samyak.com, pgandhi@samyak.com,parth.doshi@samyak.com

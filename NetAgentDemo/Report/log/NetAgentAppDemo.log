@@ -1,97 +1,101 @@
-2022-08-16 18:00:56,492 [main] INFO Scenario4 - initialization of the properties file is done
-2022-08-16 18:00:56,822 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (since Google Chrome 104 is installed in your machine)
-2022-08-16 18:00:56,849 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\rprajapati\.m2\repository\webdriver\chromedriver\win32\104.0.5112.79\chromedriver.exe
-2022-08-16 18:01:04,024 [main] INFO Scenario4 - Url opened
-2022-08-16 18:01:14,018 [main] INFO Scenario4 - =======TestScenario 1 Test Start=======
-2022-08-16 18:01:14,322 [main] INFO Scenario4 - Clicked on LogOut
-2022-08-16 18:01:16,504 [main] INFO Scenario4 - Url opened
-2022-08-16 18:01:21,924 [main] INFO Scenario4 - Clicked on Operations
-2022-08-16 18:01:22,003 [main] INFO Scenario4 - Clicked on TaskLog
-2022-08-16 18:01:23,887 [main] INFO Scenario4 - Total Jobs=0
-2022-08-16 18:01:23,887 [main] INFO Scenario4 - Data is not present related search parameter=PASS
-2022-08-16 18:01:25,742 [main] INFO Scenario4 - Clicked on LogOut
-2022-08-16 18:01:29,205 [main] INFO Scenario4 - Url opened
-2022-08-16 18:01:34,466 [main] INFO Scenario4 - =======TestScenario 1 Test End=======
-2022-08-16 18:01:34,569 [main] INFO Scenario4 - =======TestScenario 2 Test Start=======
-2022-08-16 18:01:34,654 [main] INFO Scenario4 - Clicked on Operations
-2022-08-16 18:01:34,714 [main] INFO Scenario4 - Clicked on TaskLog
-2022-08-16 18:01:36,941 [main] INFO Scenario4 - Total Jobs=0
-2022-08-16 18:01:36,941 [main] INFO Scenario4 - Data is not present related search parameter=FAIL
-2022-08-16 18:01:38,060 [main] INFO Scenario4 - =======TestScenario 2 Test End=======
-2022-08-16 18:01:38,179 [main] INFO Scenario4 - =======TestScenario 3 Test Start=======
-2022-08-16 18:01:38,268 [main] INFO Scenario4 - Clicked on Operations
-2022-08-16 18:01:38,964 [main] INFO Scenario4 - Clicked on TaskLog
-2022-08-16 18:01:40,434 [main] INFO Scenario4 - ServiceID is==LOC
-2022-08-16 18:01:40,443 [main] INFO Scenario4 - PickUpID is==3516652
-2022-08-16 18:02:10,797 [main] INFO Scenario4 - Operation tab is not selected
-2022-08-16 18:02:11,109 [main] INFO Scenario4 - Click on Operation Tab
-2022-08-16 18:02:12,853 [main] INFO Scenario4 - Clear search input
-2022-08-16 18:02:12,912 [main] INFO Scenario4 - Enter PickUpID in Search input
-2022-08-16 18:02:13,073 [main] INFO Scenario4 - Click on Search button
-2022-08-16 18:02:13,686 [main] ERROR Scenario4 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'pickupbx')]"}
-  (Session info: chrome=104.0.5112.81)
+2022-08-18 12:31:06,142 [main] INFO Scenario4 - initialization of the properties file is done
+2022-08-18 12:31:06,476 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (since Google Chrome 104 is installed in your machine)
+2022-08-18 12:31:06,497 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\rprajapati\.m2\repository\webdriver\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-18 12:31:12,297 [main] INFO Scenario4 - Url opened
+2022-08-18 12:31:21,406 [main] INFO Scenario4 - =======TestScenario 1 Test Start=======
+2022-08-18 12:31:21,407 [main] INFO Scenario4 - To verify 'No Record Found' when no Jobs is/are assigned
+2022-08-18 12:31:21,693 [main] INFO Scenario4 - Clicked on LogOut
+2022-08-18 12:31:24,591 [main] INFO Scenario4 - Url opened
+2022-08-18 12:31:30,012 [main] INFO Scenario4 - Clicked on Operations
+2022-08-18 12:31:30,085 [main] INFO Scenario4 - Clicked on TaskLog
+2022-08-18 12:31:31,932 [main] INFO Scenario4 - Total Jobs=0
+2022-08-18 12:31:31,933 [main] INFO Scenario4 - Data is not present related search parameter=PASS
+2022-08-18 12:31:33,307 [main] INFO Scenario4 - Clicked on LogOut
+2022-08-18 12:31:36,209 [main] INFO Scenario4 - Url opened
+2022-08-18 12:31:41,906 [main] INFO Scenario4 - =======TestScenario 1 Test End=======
+2022-08-18 12:31:42,051 [main] INFO Scenario4 - =======TestScenario 2 Test Start=======
+2022-08-18 12:31:42,053 [main] INFO Scenario4 - To verify 'Total Job=3' when 3 Jobs are assigned
+2022-08-18 12:31:42,168 [main] INFO Scenario4 - Clicked on Operations
+2022-08-18 12:31:42,228 [main] INFO Scenario4 - Clicked on TaskLog
+2022-08-18 12:31:44,513 [main] INFO Scenario4 - Total Jobs=0
+2022-08-18 12:31:44,513 [main] INFO Scenario4 - Data is not present related search parameter=FAIL
+2022-08-18 12:31:45,659 [main] INFO Scenario4 - =======TestScenario 2 Test End=======
+2022-08-18 12:31:45,801 [main] INFO Scenario4 - =======TestScenario 3 Test Start=======
+2022-08-18 12:31:45,801 [main] INFO Scenario4 - To verify 'Total Job=1' and Job status='PU DRV CONF' when search the particular job.
+2022-08-18 12:31:45,885 [main] INFO Scenario4 - Clicked on Operations
+2022-08-18 12:31:46,566 [main] INFO Scenario4 - Clicked on TaskLog
+2022-08-18 12:31:47,739 [main] INFO Scenario4 - ServiceID is==LOC
+2022-08-18 12:31:47,755 [main] INFO Scenario4 - PickUpID is==3516652
+2022-08-18 12:32:18,189 [main] INFO Scenario4 - Operation tab is not selected
+2022-08-18 12:32:18,532 [main] INFO Scenario4 - Click on Operation Tab
+2022-08-18 12:32:20,826 [main] INFO Scenario4 - Clear search input
+2022-08-18 12:32:20,889 [main] INFO Scenario4 - Enter PickUpID in Search input
+2022-08-18 12:32:21,051 [main] INFO Scenario4 - Click on Search button
+2022-08-18 12:32:21,628 [main] ERROR Scenario4 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'pickupbx')]"}
+  (Session info: chrome=104.0.5112.101)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SIPL92', ip: '10.212.140.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+System info: host: 'SIPL92', ip: '10.212.140.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\RPRAJA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e9bcc128dc00e360d269ee5177a4560
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\RPRAJA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51887}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c9739126bd9d05c397312863570a441d
 *** Element info: {Using=xpath, value=//*[contains(@class,'pickupbx')]}
-2022-08-16 18:02:13,859 [main] INFO Scenario4 - Job is not exist with the search parameters
-2022-08-16 18:02:15,045 [main] INFO Scenario4 - =======TestScenario 3 Test End=======
-2022-08-16 18:02:15,158 [main] INFO Scenario4 - =======TestScenario 4 Test Start=======
-2022-08-16 18:02:15,236 [main] INFO Scenario4 - Clicked on Operations
-2022-08-16 18:02:16,039 [main] INFO Scenario4 - Clicked on TaskLog
-2022-08-16 18:02:16,772 [main] INFO Scenario4 - total No of Rows=4
-2022-08-16 18:02:16,774 [main] INFO Scenario4 - total No of Columns=2
-2022-08-16 18:02:16,776 [main] INFO Scenario4 - ServiceID is==LOC
-2022-08-16 18:02:16,780 [main] INFO Scenario4 - PickUpID is==3516652
-2022-08-16 18:02:16,803 [main] INFO Scenario4 - Operation tab is already selected
-2022-08-16 18:02:16,867 [main] INFO Scenario4 - Clear search input
-2022-08-16 18:02:16,927 [main] INFO Scenario4 - Enter PickUpID in Search input
-2022-08-16 18:02:17,079 [main] INFO Scenario4 - Click on Search button
-2022-08-16 18:02:17,673 [main] ERROR Scenario4 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'pickupbx')]"}
-  (Session info: chrome=104.0.5112.81)
+2022-08-18 12:32:21,820 [main] INFO Scenario4 - Job is not exist with the search parameters
+2022-08-18 12:32:23,482 [main] INFO Scenario4 - =======TestScenario 3 Test End=======
+2022-08-18 12:32:23,594 [main] INFO Scenario4 - =======TestScenario 4 Test Start=======
+2022-08-18 12:32:23,595 [main] INFO Scenario4 - To verify 'Total Job=0' after Reject the job from NetAgent.
+2022-08-18 12:32:23,676 [main] INFO Scenario4 - Clicked on Operations
+2022-08-18 12:32:24,341 [main] INFO Scenario4 - Clicked on TaskLog
+2022-08-18 12:32:25,129 [main] INFO Scenario4 - total No of Rows=4
+2022-08-18 12:32:25,132 [main] INFO Scenario4 - total No of Columns=2
+2022-08-18 12:32:25,135 [main] INFO Scenario4 - ServiceID is==LOC
+2022-08-18 12:32:25,139 [main] INFO Scenario4 - PickUpID is==3516652
+2022-08-18 12:32:25,164 [main] INFO Scenario4 - Operation tab is already selected
+2022-08-18 12:32:25,226 [main] INFO Scenario4 - Clear search input
+2022-08-18 12:32:25,284 [main] INFO Scenario4 - Enter PickUpID in Search input
+2022-08-18 12:32:25,443 [main] INFO Scenario4 - Click on Search button
+2022-08-18 12:32:26,017 [main] ERROR Scenario4 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'pickupbx')]"}
+  (Session info: chrome=104.0.5112.101)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SIPL92', ip: '10.212.140.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+System info: host: 'SIPL92', ip: '10.212.140.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\RPRAJA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e9bcc128dc00e360d269ee5177a4560
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\RPRAJA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51887}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c9739126bd9d05c397312863570a441d
 *** Element info: {Using=xpath, value=//*[contains(@class,'pickupbx')]}
-2022-08-16 18:02:17,831 [main] INFO Scenario4 - Job is not exist with the search parameters
-2022-08-16 18:02:17,834 [main] INFO Scenario4 - ServiceID is==LOC
-2022-08-16 18:02:17,837 [main] INFO Scenario4 - PickUpID is==3516653
-2022-08-16 18:02:17,858 [main] INFO Scenario4 - Operation tab is already selected
-2022-08-16 18:02:17,908 [main] INFO Scenario4 - Clear search input
-2022-08-16 18:02:17,961 [main] INFO Scenario4 - Enter PickUpID in Search input
-2022-08-16 18:02:18,104 [main] INFO Scenario4 - Click on Search button
-2022-08-16 18:02:20,386 [main] ERROR Scenario4 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'pickupbx')]"}
-  (Session info: chrome=104.0.5112.81)
+2022-08-18 12:32:26,213 [main] INFO Scenario4 - Job is not exist with the search parameters
+2022-08-18 12:32:26,217 [main] INFO Scenario4 - ServiceID is==LOC
+2022-08-18 12:32:26,222 [main] INFO Scenario4 - PickUpID is==3516653
+2022-08-18 12:32:26,252 [main] INFO Scenario4 - Operation tab is already selected
+2022-08-18 12:32:26,303 [main] INFO Scenario4 - Clear search input
+2022-08-18 12:32:26,361 [main] INFO Scenario4 - Enter PickUpID in Search input
+2022-08-18 12:32:26,507 [main] INFO Scenario4 - Click on Search button
+2022-08-18 12:32:27,099 [main] ERROR Scenario4 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'pickupbx')]"}
+  (Session info: chrome=104.0.5112.101)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SIPL92', ip: '10.212.140.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+System info: host: 'SIPL92', ip: '10.212.140.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\RPRAJA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e9bcc128dc00e360d269ee5177a4560
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\RPRAJA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51887}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c9739126bd9d05c397312863570a441d
 *** Element info: {Using=xpath, value=//*[contains(@class,'pickupbx')]}
-2022-08-16 18:02:20,532 [main] INFO Scenario4 - Job is not exist with the search parameters
-2022-08-16 18:02:20,534 [main] INFO Scenario4 - ServiceID is==LOC
-2022-08-16 18:02:20,536 [main] INFO Scenario4 - PickUpID is==3516654
-2022-08-16 18:02:20,561 [main] INFO Scenario4 - Operation tab is already selected
-2022-08-16 18:02:20,609 [main] INFO Scenario4 - Clear search input
-2022-08-16 18:02:20,657 [main] INFO Scenario4 - Enter PickUpID in Search input
-2022-08-16 18:02:20,826 [main] INFO Scenario4 - Click on Search button
-2022-08-16 18:02:21,482 [main] ERROR Scenario4 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'pickupbx')]"}
-  (Session info: chrome=104.0.5112.81)
+2022-08-18 12:32:27,264 [main] INFO Scenario4 - Job is not exist with the search parameters
+2022-08-18 12:32:27,267 [main] INFO Scenario4 - ServiceID is==LOC
+2022-08-18 12:32:27,268 [main] INFO Scenario4 - PickUpID is==3516654
+2022-08-18 12:32:27,290 [main] INFO Scenario4 - Operation tab is already selected
+2022-08-18 12:32:27,340 [main] INFO Scenario4 - Clear search input
+2022-08-18 12:32:27,389 [main] INFO Scenario4 - Enter PickUpID in Search input
+2022-08-18 12:32:27,563 [main] INFO Scenario4 - Click on Search button
+2022-08-18 12:32:28,142 [main] ERROR Scenario4 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'pickupbx')]"}
+  (Session info: chrome=104.0.5112.101)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SIPL92', ip: '10.212.140.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+System info: host: 'SIPL92', ip: '10.212.140.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\RPRAJA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e9bcc128dc00e360d269ee5177a4560
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\RPRAJA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51887}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c9739126bd9d05c397312863570a441d
 *** Element info: {Using=xpath, value=//*[contains(@class,'pickupbx')]}
-2022-08-16 18:02:21,697 [main] INFO Scenario4 - Job is not exist with the search parameters
-2022-08-16 18:02:23,356 [main] INFO Scenario4 - =======TestScenario 4 Test End=======
-2022-08-16 18:02:23,680 [main] INFO Scenario4 - Clicked on LogOut
-2022-08-16 18:02:26,229 [main] INFO Scenario4 - ====Sending Email=====
+2022-08-18 12:32:28,317 [main] INFO Scenario4 - Job is not exist with the search parameters
+2022-08-18 12:32:29,403 [main] INFO Scenario4 - =======TestScenario 4 Test End=======
+2022-08-18 12:32:29,721 [main] INFO Scenario4 - Clicked on LogOut
+2022-08-18 12:32:32,227 [main] INFO Scenario4 - ====Sending Email=====
