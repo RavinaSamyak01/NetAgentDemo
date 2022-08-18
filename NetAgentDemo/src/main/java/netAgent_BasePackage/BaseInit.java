@@ -427,12 +427,17 @@ public class BaseInit {
 
 	public void logOut() throws InterruptedException, IOException {
 		WebDriverWait wait = new WebDriverWait(Driver, 50);
+		Actions act = new Actions(Driver);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'userthumb')]")));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[contains(@class,'userthumb')]")));
-		isElementPresent("LogOutDiv_xpath").click();
+		WebElement logOutDiv = isElementPresent("LogOutDiv_xpath");
+		act.moveToElement(logOutDiv).build().perform();
+		act.moveToElement(logOutDiv).click().perform();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("LOGOUT")));
 		wait.until(ExpectedConditions.elementToBeClickable(By.linkText("LOGOUT")));
-		isElementPresent("LogOut_linkText").click();
+		WebElement LogOut = isElementPresent("LogOut_linkText");
+		act.moveToElement(LogOut).build().perform();
+		act.moveToElement(LogOut).click().perform();
 		logger.info("Clicked on LogOut");
 		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//*[@class=\"ajax-loadernew\"]")));
 
